@@ -2,7 +2,7 @@ import csv
 from time import sleep
 from selenium import webdriver
 
-driver = webdriver.Firefox(executable_path=r"C:\Users\adnan.kalil\Desktop\new\geckodriver.exe")
+driver = webdriver.Firefox(executable_path=r"DIRETÓRIO PATH EXECUTAVEL")
 driver.get('https://www.icarros.com.br/comprar/franca-sp?parceiro_id=86&midia_id=1467&gclid=CjwKCAjw95D0BRBFEiwAcO1KDExR7_mjY-v4HwRdPErgG3IbUqo8f_bsmVTiTQt5NSw4htC8KNGyKxoCZoAQAvD_BwE')
 
 filename = "icarros.csv"
